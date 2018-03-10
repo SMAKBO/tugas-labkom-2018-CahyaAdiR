@@ -1,3 +1,7 @@
+body {
+	background-color: #000000; /* black */
+}
+
 .jumbotron {
 	color: #000066; /* light lime */
 	background-image: url(img/black.jpg);
@@ -17,12 +21,20 @@
 	font-family: 'Acme', sans-serif;
 }
 
+.card-title {
+	font-family: 'Coiny', cursive;
+}
+
+.card-text {
+	font-family: 'Playfair Display', serif;
+}
+
 .container-fluid{
 	padding: 60px 50px;
 }
 
 .bg-grey {
-	background-color: #333333; /* gray */
+	background-color: #000000; /* black */
 }
 
 .grup {
