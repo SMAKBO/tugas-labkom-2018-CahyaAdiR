@@ -1,210 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Acetone</title>
+<html>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="img/android-desktop.png">
+	<head>
+		<title>Acetone: Homepage</title>
+		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" href="style.css">
+  		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  		<link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="img/ios-desktop.png">
+	<body>
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="img/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
+		<!-- Navbar -->
+		<nav class="navbar navbar-default">
+  			<div class="container">
+    			<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span> 
+      				</button>
+      				<a class="navbar-brand" href="#">Logo</a>
+    			</div>
+    			<div class="collapse navbar-collapse" id="myNavbar">
+      				<ul class="nav navbar-nav navbar-right">
+      					<li><a href="#home">HOME</a></li>
+        				<li><a href="#about">ABOUT</a></li>
+        				<li><a href="#contact">CONTACT</a></li>
+      				</ul>
+    			</div>
+  			</div>
+		</nav>
 
-    <link rel="shortcut icon" href="img/favicon.png">
+		<!-- Introduction -->
+		<div class="jumbotron text-center">
+			<h1 class="judul">All About Acetone</h1>
+			<p class="subjudul">Welcome to our very own webpage! In this page, you're going to find the most abundant information about <strong>Acetone</strong> in the internet.</p>
+		</div>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
-  </head>
-  <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
-    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-          <h3>All About Acetone</h3>
-        </div>
-        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
-        </div>
-        <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
-          <a href="#overview" class="mdl-layout__tab is-active">Home</a>
-          <a href="#history" class="mdl-layout__tab">History</a>
-          <a href="#features" class="mdl-layout__tab">Features</a>
-          <a href="#uses" class="mdl-layout__tab">Uses</a>
-          <a href="#hazards" class="mdl-layout__tab">Hazards</a>
-	   <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
-            <i class="material-icons" role="presentation">add</i>
-            <span class="visuallyhidden">Add</span>
-          </button>
-        </div>
-      </header>
-      <main class="mdl-layout__content">
-        <div class="mdl-layout__tab-panel is-active" id="overview">
-          <p> Coba Coba </p>
-        </div>
-        <div class="mdl-layout__tab-panel" id="history">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-		    <h4>History</h4>
+		<!-- Cards -->
+		<div class="container-fluid text-center bg-grey">
 
-		<h2>Do you know history of ACETONE?</h2>
-              
-              <p>Acetone is the organic compound that has the formula (CH<sub>3</sub>)<sub>2</sub>CO. Acetone was first produced by alchemists during the late Middle Ages.In any event, it was well known at the beginning of the seveneenth century and was used for various medical purpose.Although it could be produced by the dry distillation of several metal acetates, the most frequently used was lead acetate, and consequently acetone was knwon as spirit of Saturn.
-		</p>
-			<img src="images/distillation.png"  
-				style="display: block;
-    					margin-left: auto;
-    					margin-right: auto;width:420px; ">
+		 <div class="row text-center">
+          <div class="col-sm-4">
+           <div class="thumbnail slideanim">
+			<img class="card-img-top" src="..." alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">History</h5>
+    			<p class="card-text">The discovery of Acetone and the background history of the founder.</p>
+    			<a href="#" class="btn btn-primary">Learn More</a>
+  			</div>
+  		   </div>
+  		  </div>
 
-		<p>Possibly the most vivid description of the preparation of acetone is given by Jean Beguin, who established a school of pharmacy in Paris a few years after the turn of seventeenth century. To save time in dictating notes, he wrote a textbook in Latin, " Tyrocinium Chymicum", published privately in 1610. he cautions that it is necessary that the lead acetate must be distilled into a receiver of sufficient capacity</p>
+          <div class="col-sm-4">
+           <div class="thumbnail slideanim">
+			<img class="card-img-top" src="..." alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">Functional Group of Acetone</h5>
+    			<p class="card-text">The definition of Acetone, its functional group, and how to synthesize it.</p>
+    			<a href="#" class="btn btn-primary">Learn More</a>
+  			</div>
+  		   </div>
+  		  </div>
 
-		<img src="images/jean_beguin.jpeg"  
-			style="display: block;
-   					margin-left: auto;
-   					margin-right: auto;width:180px; ">
-   		<p style=" text-align: center;">Jean Beguin</p>
+          <div class="col-sm-4">
+           <div class="thumbnail slideanim">
+			<img class="card-img-top" src="..." alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">Physical Properties</h5>
+    			<p class="card-text">The physical properties of Acetone. Soulubility, boiling points, etc.</p>
+    			<a href="#" class="btn btn-primary">Learn More</a>
+  			</div>
+  		   </div>
+  		  </div>
+  		 </div>
 
-		<p> In 1832, French chemist (Jean-Baptiste Dumas) and German chemist (Justus von Liebig) determined the empirical formula for acetone.In 1833, the French chemist, Antoine Bussy named acetone by adding the suffix -one to the stem of the corresponding acid. In 1852, English chemist, Alexander William Williamson realized that acetone was methyl acetyl. 
-		</p>
-		<img src="images/antoine_bussy.jpeg" 
-				style="display: block;
-    					margin-left: auto;
-    					margin-right: auto;width:240px; ">
-    		<p style=" text-align: center;"> Antoine Bussy </p>
+  		 <div class="row text-center">
+          <div class="col-sm-4">
+           <div class="thumbnail slideanim">
+			<img class="card-img-top" src="..." alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">Chemical Properties</h5>
+    			<p class="card-text">The chemical properties of Acetone. Every compound has their own uniqueness.</p>
+    			<a href="#" class="btn btn-primary">Learn More</a>
+  			</div>
+  		   </div>
+  		  </div>
 
-    	<h2>Do you know that acetone was made from <em>Clostridium Acetobutylicum</em> ?</h2>
+          <div class="col-sm-4">
+           <div class="thumbnail slideanim">
+			<img class="card-img-top" src="..." alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">Uses</h5>
+    			<p class="card-text">Where do we find it? We will explain about the uses of Acetone in daily life.</p>
+    			<a href="#" class="btn btn-primary">Learn More</a>
+  			</div>
+  		   </div>
+  		  </div>
 
-		<p>During World War 1 acetone was developed the process for industrial production of acetone by Chaim Weizmann. Weizmann needed something to help him create the method of Bacterial Fermentation, so he made acetone using the bacterium Clostridium Acetobutylicum. But the way it was abandoned due to the low acetone of butanol produced. 
-		</p>
-		<img src="images/bactery.jpeg" 
-				style="display: block;
-    					margin-left: auto;
-    					margin-right: auto;width:420px; ">
-<p style=" text-align: center;"> <em>Clostridium Acetobutylicum</em> </p>
-            </div>
-          </section>
-        </div>
+          <div class="col-sm-4">
+           <div class="thumbnail slideanim">
+			<img class="card-img-top" src="..." alt="Card image cap">
+  			<div class="card-body">
+    			<h5 class="card-title">Hazards</h5>
+    			<p class="card-text">Every compound has their own dangers. We will tell how to treat it properly.</p>
+    			<a href="#" class="btn btn-primary">Learn More</a>
+  			</div>
+  		   </div>
+  		  </div>
+  		 </div>
 
-        <div class="mdl-layout__tab-panel" id="features">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>Features</h4>
-
-              
-			<p>Acetone is a colorless, flammable liquid that evaporates easily. It is an organic compound because carbon atoms are present in acetone's chemical formula, which is (CH<sub>3</sub>)<sub>2</sub>CO. It consists of three carbon atoms, six hydrogen atoms, and one oxygen atom.Acetonecan also be called to as propanone, dimethyl keton, 2-propanone, propan-2-one, dimethylformaldehyde, dan β-ketopropana,.</p>
-		
-	
-		<h2>How About the Functional Group of Acetone?</h2>
-
-			<p>The functional group of Acetone is Ketones, Acetone is organic compounds containing a carbonyl group bonded to two hydrocarbon groups. Acetone has a carbonyl group, where carbon and oxygen are bonded to each other with a double bond and is known as the simplest ketone. Acetone, an organic compound, is chemically described as CH<sub>3</sub>COCH<sub>3</sub>. Acetone is a hydrocarbon derivative, more specifically a ketone in it’s simplest form. A ketone has a carbon double bonded to an oxygen and a bond with two other separate carbon atoms. Although similar, ketones are separate from aldehydes as aldehyde's carbonyl group is located at the end of the carbon chain, meaning that a carbon is double bonded to an oxygen, bonded to another carbon, and bonded to a hydrogen atom.</p>
-			<img src="images/Acetone.jpg">
-	
-			<p>Acetone's functional group, being the carbonyl group, is polar. This is because the electronegativity of the oxygen is greater than that of the carbon, creating a polar bond. The carbonyl group interacts with water, allowing it to be able to participate in hydrogen bonding. Although ketone's cannot hydrogen bond with themselves, they can with water molecules. This, as well as their polarity, gives them the property of being able to disassociate in water. Acetone's melting and boiling points are much lower than that of waters, because acetone does not have as strong of intermolecular forces as water. Because of the weaker forces of attraction between acetone molecules. </p>
-
-			<h2>How Preparation Of Acetone ?</h2>
-			<p>Oxidation of secondary alcohols
-				The oxidation of secondary alcohols to ketones may be carried out using strong oxidizing agents, because further oxidation of a ketone occurs with great difficulty. Normal oxidizing agents include potassium dichromate (K 2Cr 2O 7) and chromic acid (H 2CrO 4). The conversion of 2‐propanol to 2‐propanone illustrates the oxidation of a secondary alcohol. </p>
-				<img src="">
-
-				<p>Hydration of alkynes
-					The addition of water to an alkyne leads to the formation of an unstable vinyl alcohol. These unstable materials undergo keto‐enol tautomerization to form ketones. The hydration of propyne forms 2‐propanone, as the following figure illustrates</p>
-				<img src="">
-
-				<p>Ozonolysis of alkenes
-					When one or both alkene carbons contain two alkyl groups, ozonolysis generates one or two ketones. The ozonolysis of 1,2‐dimethyl propene produces both 2‐propanone (a ketone) and ethanal (an aldehyde).</p>
-					<img src="">
-
-					<p>Grignard reagents
-						Hydrolysis of the salt formed by reacting a Grignard reagent with a nitrile produces good ketone yields. For example, you can prepare acetone by reacting the Grignard reagent methyl magnesium bromide (CH 3MgBr) with methyl nitrile (CH 3CbondN).  </p>
-<img src="">
-		    </div>
-          </section>
-		  </div>
-		
-	<div class="mdl-layout__tab-panel" id="hazards">
-          <section class="section--center mdl-grid mdl-grid--no-spacing">
-            <div class="mdl-cell mdl-cell--12-col">
-              <h4>Hazards</h4>
-		    <h1>What is the dangers of ACETONE?</h1>
-	<h2 style="text-align: center;">Acetone is Flammable</h2>
-
-	<img src="images/acetoneliquid.jpg">   <img src="images/hflammable.jpg">
-
-<p>Acetone is a clear, colorless liquid that is an extremely flammable chemical. Acetone is a common item, but it can make some serious risks. Explosion can happen when acetone is mixed with hydrogen peroxide, nitric acid and sulfur dichloride.To avoid occupational safety hazards, we must know what chemicals to segregate from acetone. To throw away the liquid acetone, you need to take the acetone to a hazardous waste treatment. </p>
+  		</div>
 
 
-<h2 style="text-align: center;">Acetone Dangerous to health </h2>
-
-	
- <img src="images/sick.png" style="display: block;
-   									margin-left: auto;
-   									margin-right: auto">
-
-<p> When Inhaled :</p>
-
-<p>- Irritating the nose and sore throat.</p>
-
-<p>- At high concentrations: Can damage the nervous system.</p>
-
-<p>- Symptoms: Headache, dizziness, nausea, sleepiness, confusion.</p>
-
-<p>- At heavy exposure: May arise loss of consciousness.</p>
-
-<p>If Leather :</p>
-
-<p>- Skin irritation</p>
-
-<p>If exposed to the eye :</p>
-
-<p>- Medium to severe eye irritation: red eyes, pain and tears</p>
 
 
-	<h2 style="text-align: center;">The storage of Acetone</h2>
-	<img src="images/nosun.png"> <img src="images/nofire.jpg" style="width: 290px"> <img src="images/apd.jpg" style="width: 260px">
-		<p>Acetone Storage must be stored in a cool, dry, and well-ventilated chemical storage building.  The chemical storage building must be located in an area where fire hazards are low. The handling and storage of Acetone is very important and must take caution. Keep away from heat, keep away from sources of fire, keep away from sun, use the correct personal protective equipment. If swallowed immediately medical contact. Avoid with eye contact and skin. Keep away from oxidizing reagents, reducing reagents, acids, and alkalis.
-</p>
+  		<script>
+  		$(window).scroll(function() {
+  			$(".slideanim").each(function(){
+    		var pos = $(this).offset().top;
 
-          </section>
-        </div>
+    		var winTop = $(window).scrollTop();
+    		if (pos < winTop + 600) {
+      			$(this).addClass("slide");
+    			}
+  			});
+		});
 
-        <footer class="mdl-mega-footer">
-          <div class="mdl-mega-footer--middle-section">
-          </div>
-          <div class="mdl-mega-footer--bottom-section">
-            <div class="mdl-logo">
-              More Information
-            </div>
-            <ul class="mdl-mega-footer--link-list">
-              <li><a href="https://developers.google.com/web/starter-kit/">About Us</a></li>
-            </ul>
-          </div>
-        </footer>
-      </main>
-    </div>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  </body>
+  		</script>
+
+	</body>
+
+
 </html>
