@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-	color: #000066; /* light lime */
+	color: #e64d00; /* blue */
 	background-image: url(img/black.jpg);
 	 /* parallax */
     background-attachment: fixed;
@@ -29,7 +29,7 @@ body {
 	font-family: 'Playfair Display', serif;
 }
 
-.container-fluid{
+.container-fluid {
 	padding: 60px 50px;
 }
 
@@ -84,6 +84,12 @@ body {
 .navbar-default .navbar-toggle {
     border-color: transparent;
     color: #fff !important;
+}
+
+.logo {
+	vertical-align: middle;
+    width: 30px;
+    height: 30px;
 }
 
 .slideanim {visibility:hidden;}
