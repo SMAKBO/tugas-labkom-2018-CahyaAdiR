@@ -1,0 +1,60 @@
+body {
+	background-color: #000000;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #000000;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #000000 !important;
+    background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+.logo {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+.bg-materi {
+	background-color: #bfbfbf;
+	color: #000000;
+	padding: 50px 50px;
+}
+
+.judul {
+	font-family: 'Oswald', sans-serif;;
+}
+
+.paragraf {
+	font-family: 'Roboto Slab', serif;;
+}
+
+.table {
+    width: 60%;
+}
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
