@@ -3,7 +3,7 @@ body {
 }
 
 .jumbotron {
-	color: #e64d00; /* blue */
+	color: #e64d00; /* orange */
 	background-image: url(img/black.jpg);
 	 /* parallax */
     background-attachment: fixed;
