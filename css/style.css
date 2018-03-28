@@ -4,7 +4,7 @@ body {
 
 .jumbotron {
 	color: #e64d00; /* blue */
-	background-image: url(img/black.jpg);
+	background-image: url(black.jpg);
 	 /* parallax */
     background-attachment: fixed;
     background-position: center;
